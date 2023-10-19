@@ -1,0 +1,214 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lora', serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: cornflowerblue;
+    padding: 20px 0;
+    display: flex; 
+    justify-content: center;
+}
+
+.active{
+    text-decoration: underline;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile-picture {
+    width: 250px; 
+    height: 250px; 
+    overflow: hidden;
+    margin: 20px;
+    padding: 50px;
+
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.profile-text-card {
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+   
+}
+
+.profile-text {
+    text-align: center;
+    background-color: #fff;
+    margin: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.profile-text p {
+    font-size: 1rem;
+    margin-bottom: 10px; 
+
+}
+
+.profile-text a {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.profile-text a:hover {
+    background-color: darkslategray;
+}
+
+main {
+    background-color:#f5f5f5;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+
+.container {
+    width: 50%;
+    margin: 0;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 400px; 
+    height: 400px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden; 
+}
+
+.card-background {
+    width: 100%;
+    height: 100%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card-content {
+    padding: 10px;
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    background-color: cornflowerblue;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: background-color 0.3s;
+}
+
+.card a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: cornflowerblue;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.footer-links a:hover {
+    background-color:#555;
+    border-color:#555;
+}
+
+/*for mobile version*/
+@media screen and (max-width: 768px) {
+    .card {
+        flex-basis: calc(50% - 10px);
+    }
+  
+}
+
+/*for desktop version*/
+@media screen and (min-width: 769px) {
+    .card {
+        flex-basis: calc(25% - 10px);
+    }
+    .profile-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr; 
+        align-items: start;
+    }
+
+    .profile-text {
+
+        text-align: left;
+        padding: 20px; 
+    }
+}
