@@ -1,0 +1,54 @@
+{
+    "utbildning": [{
+        "titel": "Fullstackutvecklare JavaScript Extended",
+        "skola": "Chasacademy Göteborg",
+        "datum": "2023 - 2025"
+      },
+      {
+        "titel": "Certifikat: Egenvård rådgivning / Tekniker",
+        "skola": "Göteborgs Universitet",
+        "datum": "2022 - 2023 "
+      },
+      {
+        "titel": "Naturprogrammet",
+        "skola": "Thorén Business School, Malmö",
+        "datum": "2017 - 2020"
+      }
+    ],
+    "kunskaper": [
+      "Microsoft: Word, Excel, Powerpoint, Teams",
+      "LATEX",
+      "Programmering: Programmering 1"
+    ],
+    "arbetslivserfarenhet": [{
+        "titel": "Rådgivare på Apotek",
+        "datum": "Juni 2023 - Pågående",
+        "plats": "Göteborg, Sweden",
+        "beskrivning": "Som rådgivare på Apoteket ansvarade jag för att erbjuda professionell rådgivning och kundservice till apotekets  kunder. Detta inkluderade läkemedelsrådgivning, kundservice, produktkunskap, efterlevnad av regelverk, lagerhantering och samarbete med andra apoteksanställda. Jag deltog också i utbildning för att förbättra mina kunskaper inom farmaci och kundservice."
+      },
+      {
+        "titel": "Receptionist",
+        "datum": "Oktober 2022 - Pågående",
+        "plats": "Manpower Göteborg, Sweden",
+        "beskrivning": "Som deltidsreceptionist på Manpower har jag arbetat inom olika konsultbolag, inklusive Manpower, Plasman,Svenska hus och Egnahemsbolaget. Jag ansvarar för att välkomna och assistera besökare, hantera telefonväxel, utföra administrativa uppgifter och erbjuda högkvalitativ kundservice. Denna roll har stärkt mina färdigheter inom kundservice och administration."
+      },
+      {
+        "titel": "Driftassistent",
+        "datum": "Juni 2022 - Augusti 2022",
+        "plats": "Malmö, Sweden",
+        "beskrivning": "På Apoex, ett läkemedelsföretag som levererade läkemedel till Malmö Universitetssjukhus, var jag ansvarig för att beställa, kontrollera hållbarheten och hantera läkemedel."
+      },
+      {
+        "titel": "Simlärare",
+        "datum": "Juni 2019 - Augusti 2020",
+        "plats": "Simklubben Ran Malmö, Sweden",
+        "beskrivning": "Jag har arbetat som simlärare och ansvarat för att undervisa elever i olika åldrar i simning. Jag har också genomgått HLR-utbildning vid tre tillfällen i förberedelse för detta arbete."
+      },
+      {
+        "titel": "Badvärd",
+        "datum": "Juni 2019 - Augusti 2020",
+        "plats": "Segevängsbadet Malmö, Sweden",
+        "beskrivning": "Som badvärd på Segevängsbadet gick mitt arbete ut på att hålla ett övervakande öga över våra besökare i poolen. Här fick jag även arbeta i den tillhörande kiosken med försäljning av bland annat glass och dryck."
+      }
+    ]
+  }
