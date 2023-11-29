@@ -6,16 +6,16 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: 'Lora', serif;
     background-color: #f0f0f0;
-    
 }
 
-.active{
+.active {
     text-decoration: underline;
 }
+
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     gap: 20px;
 }
 
@@ -24,7 +24,6 @@ nav a {
     color: black;
     font-weight: bold;
 }
-
 
 .container {
     width: 80%;
@@ -61,23 +60,18 @@ li {
     margin-bottom: 10px;
 }
 
-
 .date {
     font-weight: bold;
     margin-left: 10px;
 }
 
-
 strong {
     font-weight: bold;
-    
 }
-
 
 p {
     margin-bottom: 10px;
 }
-
 
 header {
     background-color: rgb(100, 237, 173);
@@ -91,8 +85,11 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 20px;
-   
 }
 
-
-
+#toggleDark {
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #ffcc00;
+}
